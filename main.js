@@ -22,6 +22,8 @@ var refreshInsert = function() {
 }
 
 var parseRecent = function(result) {
+	$('#recent ul').empty();
+
 	if(result == null) {
 		// there's nothing to display :(
 		$('#recent ul')
@@ -30,7 +32,6 @@ var parseRecent = function(result) {
 				.append($('<small/>', { text: 'Dein Cache scheint geleert worden zu sein.' })));
 	} else {
 		// print recent entries
-		$('#recent ul').empty();
 		$.each(result, function(index, item) {
 			$('#recent ul')
 				.append($('<li/>', { class: 'arrow', id: index })
@@ -123,12 +124,12 @@ var clearCache = function() {
 	Lungo.Data.Storage.persistent('recentUpdate', false);
 	Lungo.Data.Storage.persistent('insertUpdate', false);
 
-	parseRecent(Lungo.Data.Storage.persistent('recent'));
-	parseInsert(Lungo.Data.Storage.persistent('insert'));
+	parseRecent(null);
+	parseInsert(null);
 }
 
 var url = 'http://d2db.w8l.org/';
-Lungo.Service.Settings.timeout = 500;
+//Lungo.Service.Settings.timeout = 500;
 
 Lungo.Service.Settings.error = function(type, xhr) {
 	Lungo.Notification.error('Fehler', 'Konnte keine Daten aus der #D2DB laden :(', 'cancel');
