@@ -1,0 +1,161 @@
+	<section id="main" data-transition="slide">
+		<header data-title="#D2DB">
+			<nav>
+				<a href="#" data-target="aside" data-icon="menu" id="toggleAside" class="left"></a>
+				<a href="http://d2db.w8l.org/#phonegap=external" data-icon="home" class="right"></a>
+			</nav>
+		</header>
+
+		<footer>
+			<nav>
+				<a href="#start" class="active" data-router="article" data-icon="home"></a>
+				<a href="#recent" data-router="article" data-icon="clock"></a>
+				<a href="#insert" data-router="article" data-icon="pencil"></a>
+				<a href="#settings" data-router="article" data-icon="settings"></a>
+			</nav>
+		</footer>
+
+		<article id="start" class="list indented scroll active">
+			<ul>
+				<li>
+					<strong>Die zwei Detektive und Bob</strong><br>
+					Willkommen bei "Die zwei Detektive und Bob" - Der Datenbank zur Erfassung von Bob-Diskrimination.
+				</li>
+			</ul>
+		</article>
+
+		<article id="episode" class="list indented scroll">
+			<ul></ul>
+		</article>
+
+		<article id="recent" class="list indented scroll">
+			<ul></ul>
+		</article>
+
+		<article id="insert" class="list indented scroll">
+			<div class="form">
+				<ul id="insertMessage">
+					<li>
+						<strong>Eintragen</strong><br>
+						Vielen Dank, dass du uns helfen möchtest allen Bobs dieser Welt die Achtung einzugestehen, die sie verdienen.
+					</li>
+				</ul>
+
+				<fieldset>
+					<label>Serie:</label>
+					<label class="select">
+						<select id="series"></select>
+					</label>
+				</fieldset>
+
+				<fieldset>
+					<label>Episode:</label>
+					<label class="select">
+						<select id="episodes"></select>
+					</label>
+				</fieldset>
+
+				<fieldset>
+					<label>Mobber:</label>
+					<label class="select">
+						<select id="characters"></select>
+					</label>
+				</fieldset>
+
+				<fieldset>
+					<label>Beschreibung:</label>
+					<textarea id="description"></textarea>
+				</fieldset>
+			</div>
+
+			<div class="form">
+				<ul>
+					<li>Ein wenig freiwilliges über dich:</li>
+				</ul>
+
+				<fieldset>
+					<label>Name:</label>
+					<input type="text" id="name">
+				</fieldset>
+
+				<fieldset>
+					<label>Email:</label>
+					<input type="text" id="email">
+				</fieldset>
+
+				<fieldset>
+					<label>Kommentar:</label>
+					<textarea id="comment"></textarea>
+				</fieldset>
+			</div>
+
+			<div class="form">
+				<ul>
+					<li><a href="#" id="insertSubmit" class="button">Eintragen</a></li>
+				</ul>
+			</div>
+		</article>
+
+		<article id="settings" class="list indented scroll">
+			<ul>
+				<li>
+					<a href="#" id="refreshRecent" data-icon="refresh" class="button right"></a>
+					<strong id="recentUpdate">Lädt ...</strong>
+					<small>Letzte aktualisierung der Einträge</small>
+				</li>
+				<li>
+					<a href="#" id="refreshInsert" data-icon="refresh" class="button right"></a>
+					<strong id="insertUpdate">Lädt ...</strong>
+					<small>Letzte aktualisierung der Episoden (Formular)</small>
+				</li>
+				<li>
+					<a href="#" id="refreshAll" data-icon="refresh" class="button right"></a>
+					<strong id="insertUpdate">Alle Daten aktualisieren</strong>
+					<small>Aktualisiert sowohl Einträge als auch die Episodenliste</small>
+				</li>
+				<li>
+					<a href="#" id="clearCache" data-icon="remove" class="button right"></a>
+					<strong>Cache leeren</strong>
+					<small>Löscht alle lokalen Daten</small>
+				</li>
+			</ul>
+		</article>
+	</section>
+
+	<aside id="links">
+		<header data-title="Links"></header>
+		<article class="active list scroll">
+			<ul>
+				<li>
+					<a href="http://www.dreifragezeichen.de/#phonegap=external">
+						<strong>Die Drei Fragezeichen</strong>
+						<small>Offizielle DDF Internetseite</small>
+					</a>
+				</li>
+				<li>
+					<a href="http://www.3fragezeichen.de/#phonegap=external">
+						<strong>3Fragezeichen</strong>
+						<small>DDF Fanseite</small>
+					</a>
+				</li>
+				<li>
+					<a href="http://fragezeichen.neuvertonung.de/#phonegap=external">
+						<strong>Neuvertonung</strong>
+						<small>DDF Fan-Vertonungen</small>
+					</a>
+				</li>
+				<li>
+					<a href="http://diedreifragezeichen.wikia.com/#phonegap=external">
+						<strong>Wikia</strong>
+						<small>DDF Wiki</small>
+					</a>
+				</li>
+				<li>
+					<a href="http://d2db.w8l.org/#phonegap=external">
+						<strong>Die zwei Detektive und Bob</strong>
+						<small>Die zwei Detektive und Bob</small>
+					</a>
+				</li>
+			</ul>
+		</article>
+	</aside>

@@ -1,0 +1,23 @@
+/home/fabian/html/d2db/gen/org/apache/cordova/example/R.java \
+ : /home/fabian/html/d2db/res/drawable-ldpi/ic_launcher.png \
+/home/fabian/html/d2db/res/drawable-ldpi/icon.png \
+/home/fabian/html/d2db/res/drawable-xhdpi/ic_launcher.png \
+/home/fabian/html/d2db/res/drawable-xhdpi/icon.png \
+/home/fabian/html/d2db/res/layout/main.xml \
+/home/fabian/html/d2db/res/xml/config.xml \
+/home/fabian/html/d2db/res/drawable-mdpi/ic_launcher.png \
+/home/fabian/html/d2db/res/drawable-mdpi/icon.png \
+/home/fabian/html/d2db/res/drawable/icon.png \
+/home/fabian/html/d2db/res/drawable-hdpi/ic_launcher.png \
+/home/fabian/html/d2db/res/drawable-hdpi/icon.png \
+/home/fabian/html/d2db/res/values/strings.xml \
+/home/fabian/html/d2db/bin/res/drawable-ldpi/ic_launcher.png \
+/home/fabian/html/d2db/bin/res/drawable-ldpi/icon.png \
+/home/fabian/html/d2db/bin/res/drawable-xhdpi/ic_launcher.png \
+/home/fabian/html/d2db/bin/res/drawable-xhdpi/icon.png \
+/home/fabian/html/d2db/bin/res/drawable-mdpi/ic_launcher.png \
+/home/fabian/html/d2db/bin/res/drawable-mdpi/icon.png \
+/home/fabian/html/d2db/bin/res/drawable/icon.png \
+/home/fabian/html/d2db/bin/res/drawable-hdpi/ic_launcher.png \
+/home/fabian/html/d2db/bin/res/drawable-hdpi/icon.png \
+/home/fabian/html/d2db/bin/AndroidManifest.xml \
