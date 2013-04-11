@@ -1,4 +1,9 @@
-#D2DB
-=====
+\#D2DB
+------
 
-Simple #D2DB App written in Lungo and zepto.js
+Eine kleine #D2DB App für - atm nur - Android. Sollte dank Lungo und PhoneGap aber auch sonst überall funktionieren.
+
+Mehr:
+
+  - http://d2db.w8l.org
+  - http://w8l.org/post/d2db-app
